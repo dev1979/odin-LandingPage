@@ -1,0 +1,168 @@
+
+.header-content{
+    background-color: #1c3c44;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-evenly;
+    align-items: center;
+    padding: 0 10rem 0 10rem;
+    width: 100%;
+}
+
+.header-content .header{
+    align-self: center;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.header ul{
+    /* border: solid 2px red; */
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    gap:2rem;
+    width: 100%;
+    margin-right: auto;
+}
+
+.header-quote{
+    display: flex;
+    flex-direction: row;
+    padding: 0rem 10rem 5rem 10rem;
+    gap: 5rem;
+    background-color: #1c3c44;
+    align-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.logo-img{
+    min-width: 200px;
+    max-width: 300px;
+    /* width: 100%; */
+    height: auto;
+}
+
+
+li.link{
+    align-items: flex-end;
+    align-self: center;
+}
+
+.info-content{
+    /* display: flex;
+    flex-wrap: wrap; */
+    background-color: #ffffff;
+    color: black;
+    align-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    gap: 5rem;
+    padding: 0 10rem 0 10rem;
+    width: 100%;
+}
+
+.quotes{
+    /* display: flex; */
+    background-color: #e5e7eb;
+    color: black;
+    /* height: 210px; */
+    align-items: center;
+    padding: 8rem 10rem 8rem 10rem;
+    font-size: 32px;
+}
+
+.footer{
+    height: 75px;
+    background-color: #ffffff;
+    color: black;
+}
+
+.thumbs{
+    padding: 2rem;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.thumbnails{
+    border: solid 2px #3b82f6;
+    border-radius: 2rem;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.thumbnails img{
+    object-fit: cover;
+    height: 100%;
+    /* width: 100%; */
+    border-radius: 2rem;
+}
+
+.hero-img{
+    max-width: 1200px;
+    /* min-width: 300px; */
+    /* width: 100%; */
+    height: auto;
+    align-self: center;
+}
+
+
+li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-container{
+    border: solid 3px green;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    gap: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+
+
+button{
+    margin-top: 1rem;
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    background-color:#3b82f6;
+    color: #ffffff;
+    font-size: 1rem;
+    box-shadow: none;
+    border-color: transparent;
+}
+
+button:hover{
+    background-color: #709ee7;
+    color:#122446;
+}
+
+img{
+    width: 100%;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+box-sizing: inherit;
+}
