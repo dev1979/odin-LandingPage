@@ -6,7 +6,7 @@
     flex-direction: row;
     align-content: space-evenly;
     align-items: center;
-    padding: 0 10rem 0 10rem;
+    padding: 1rem 10rem 0 10rem;
     width: 100%;
 }
 
@@ -17,7 +17,6 @@
 }
 
 .header ul{
-    /* border: solid 2px red; */
     display: flex;
     list-style-type: none;
     padding: 0;
@@ -52,32 +51,69 @@ li.link{
 }
 
 .info-content{
-    /* display: flex;
-    flex-wrap: wrap; */
-    background-color: #ffffff;
+     background-color: #ffffff;
     color: black;
     align-content: space-evenly;
     align-items: center;
     text-align: center;
     gap: 5rem;
-    padding: 0 10rem 0 10rem;
+    padding: 2rem 15rem 2rem 15rem;
     width: 100%;
 }
 
 .quotes{
-    /* display: flex; */
+    display: flex;
+    flex-direction: column;
     background-color: #e5e7eb;
     color: black;
-    /* height: 210px; */
-    align-items: center;
-    padding: 8rem 10rem 8rem 10rem;
+    padding: 8rem 15rem 8rem 15rem;
     font-size: 32px;
+    /* border: solid 1px red; */
+}
+
+.commenter{
+    /* border: solid 1px green; */
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+
+.action{
+    display: flex;
+    background-color: #3b82f6;
+    border-radius: 2rem;
+    margin: 5rem 10rem 5rem 10rem;
+    padding: 5rem 5rem 5rem 5rem;
+    font-size: 20px;
+    font-weight: 700;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.clickit{
+    color: #bccce7;
+    font-weight: 500;
+    /* margin: 5rem 10rem 5rem 10rem; */
+}
+
+.sign{
+    border-color: white;
+    box-shadow: none;
+    min-width: 130px;
+    max-height: 35px;
+    flex-wrap: nowrap;
 }
 
 .footer{
-    height: 75px;
-    background-color: #ffffff;
-    color: black;
+    display: flex;
+    width: 100%;
+    height: 5rem;
+    background-color: #1f2937;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
 }
 
 .thumbs{
@@ -102,8 +138,7 @@ li.link{
 
 .hero-img{
     max-width: 1200px;
-    /* min-width: 300px; */
-    /* width: 100%; */
+    border-radius: 2rem;
     height: auto;
     align-self: center;
 }
@@ -115,7 +150,6 @@ li a{
 }
 
 .main-container{
-    border: solid 3px green;
     display: flex;
     flex-direction: column;
     margin: 0;
