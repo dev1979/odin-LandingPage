@@ -79,7 +79,7 @@ li.link{
 .action{
     display: flex;
     background-color: #3b82f6;
-    border-radius: 2rem;
+    border-radius: 1rem;
     margin: 5rem 10rem 5rem 10rem;
     padding: 5rem 5rem 5rem 5rem;
     font-size: 20px;
@@ -121,12 +121,12 @@ li.link{
 .thumbs{
     padding: 2rem;
     display: flex;
-    gap: 2rem;
+    gap: 5rem;
     flex-wrap: wrap;
 }
 .thumbnails{
     border: solid 2px #ffffff;
-    border-radius: 2rem;
+    border-radius: 1rem;
     width: 200px;
     height: 200px;
     min-width: 200px;
@@ -135,12 +135,11 @@ li.link{
 .thumbnails img{
     object-fit: cover;
     height: 100%;
-    border-radius: 2rem;
+    border-radius: 1rem;
 }
 
 .hero-img{
     max-width: 1200px;
-    border-radius: 2rem;
     height: auto;
     align-self: center;
 }
