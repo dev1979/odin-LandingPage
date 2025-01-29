@@ -51,11 +51,10 @@ li.link{
 }
 
 .info-content{
-     background-color: #ffffff;
+    background-color: #ffffff;
     color: black;
-    align-content: space-evenly;
+    align-content: center;
     align-items: center;
-    text-align: center;
     gap: 5rem;
     padding: 2rem 15rem 2rem 15rem;
     width: 100%;
@@ -68,11 +67,9 @@ li.link{
     color: black;
     padding: 8rem 15rem 8rem 15rem;
     font-size: 32px;
-    /* border: solid 1px red; */
 }
 
 .commenter{
-    /* border: solid 1px green; */
     align-self: flex-end;
     font-size: 24px;
     font-weight: 600;
@@ -94,7 +91,6 @@ li.link{
 .clickit{
     color: #bccce7;
     font-weight: 500;
-    /* margin: 5rem 10rem 5rem 10rem; */
 }
 
 .sign{
@@ -103,6 +99,13 @@ li.link{
     min-width: 130px;
     max-height: 35px;
     flex-wrap: nowrap;
+    background: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.sign:active{
+    border-style: outset;
 }
 
 .footer{
@@ -123,16 +126,16 @@ li.link{
     flex-wrap: wrap;
 }
 .thumbnails{
-    border: solid 2px #3b82f6;
+    border: solid 2px #ffffff;
     border-radius: 2rem;
-    max-width: 200px;
-    max-height: 200px;
+    width: 200px;
+    height: 200px;
+    min-width: 200px;
 }
 
 .thumbnails img{
     object-fit: cover;
     height: 100%;
-    /* width: 100%; */
     border-radius: 2rem;
 }
 
